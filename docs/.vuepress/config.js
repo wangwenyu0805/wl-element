@@ -3,7 +3,7 @@ const isProduction = process.env.NODE_ENV === 'production'
 module.exports = {
   title: pkg.name,
   description: 'elementUI二次封装',
-  base: '/wl-element/',
+  base: '',
   themeConfig: {
     nav: [
       { text: '主页', link: '/' },
@@ -67,7 +67,7 @@ module.exports = {
       // 'mock': 'Mock'
     },
     output: {
-      publicPath: isProduction ? 'https://cdn.noob6.com/docs/' : undefined,
+      // publicPath: isProduction ? 'https://cdn.noob6.com/docs/' : undefined,
     },
   }
 }
