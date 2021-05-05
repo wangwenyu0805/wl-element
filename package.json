@@ -1,6 +1,6 @@
 {
   "name": "wl-element",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "private": false,
   "description": "基于element-ui的二次封装组件库",
   "author": "wangwenyu <wwy2293370297@163.com>",
